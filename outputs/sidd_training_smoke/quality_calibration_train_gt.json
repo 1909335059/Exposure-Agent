@@ -1,0 +1,7 @@
+{
+  "noise_floor": 0.002420990844257176,
+  "noise_reference": 0.021730885212309654,
+  "laplacian_reference": 0.13573073595762253,
+  "calibration_version": "no_reference_v2_sidd_gt_srgb",
+  "sample_count": 8
+}

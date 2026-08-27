@@ -1,0 +1,10 @@
+{
+  "split": "test",
+  "run_count": 1,
+  "mean_objective_quality_gain": 0.0024412511584123164,
+  "success_rate": 1.0,
+  "mean_iterations": 1,
+  "unsatisfied_after_max_rounds_rate": 0.0,
+  "mean_absolute_iso_change": 0.0,
+  "mean_absolute_shutter_stop_change": 0.32192809488736235
+}

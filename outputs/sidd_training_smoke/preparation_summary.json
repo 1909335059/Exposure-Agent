@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "source": "SIDD Small official NOISY sRGB inputs",
+  "gt_usage": "train-split quality calibration only",
+  "seed": 42,
+  "folds": 4,
+  "exposure_offsets_ev": [
+    0.0
+  ],
+  "sample_count": 10,
+  "physical_scene_count": 10,
+  "split_group_counts": {
+    "train": 8,
+    "validation": 1,
+    "test": 1
+  },
+  "split_sample_counts": {
+    "train": 8,
+    "validation": 1,
+    "test": 1
+  },
+  "quality_calibration": {
+    "noise_floor": 0.002420990844257176,
+    "noise_reference": 0.021730885212309654,
+    "laplacian_reference": 0.13573073595762253,
+    "calibration_version": "no_reference_v2_sidd_gt_srgb",
+    "sample_count": 8
+  },
+  "initial_state_count": 10,
+  "initial_label_count": 10,
+  "train_memory_experience_count": 1,
+  "integration_state_count": 10,
+  "integration_label_count": 8,
+  "combined_label_count": 18,
+  "paths": {
+    "split_manifest": "outputs/sidd_training_smoke/sidd_physical_scene_splits.json",
+    "crossfold_manifest": "outputs/sidd_training_smoke/sidd_train_crossfolds.json",
+    "quality_calibration": "outputs/sidd_training_smoke/quality_calibration_train_gt.json",
+    "initial_sft": "outputs/sidd_training_smoke/initial_sft.jsonl",
+    "initial_audit": "outputs/sidd_training_smoke/initial_audit.jsonl",
+    "integration_sft": "outputs/sidd_training_smoke/integration_sft.jsonl",
+    "integration_audit": "outputs/sidd_training_smoke/integration_audit.jsonl",
+    "combined_sft": "outputs/sidd_training_smoke/combined_sft.jsonl",
+    "train_memory": "outputs/sidd_training_smoke/memory_train.jsonl",
+    "fold_memory_dir": "outputs/sidd_training_smoke/fold_memories",
+    "previews_dir": "outputs/sidd_training_smoke/previews_noisy_srgb",
+    "artifacts_dir": "outputs/sidd_training_smoke/artifacts",
+    "summary": "outputs/sidd_training_smoke/preparation_summary.json"
+  }
+}
